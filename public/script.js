@@ -106,9 +106,9 @@ $(function () {
             $("#stop_video").html(html)
         }
     })
-
+    let data = {}
     $("#invite_button").click(function(){
-        let data ={
+        data ={
             url:"window.location.href",
             to:to
         }
